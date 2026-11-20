@@ -1,0 +1,4 @@
+UxPlay lib/ from https://github.com/FDH2/UxPlay commit 48f5ce47c9ef694afccfac907c9e8828329657fe
+Local changes:
+- removed dns_sd/ (Avahi/Bonjour backend) and the CMake files; the built-in mdnsd/ responder is used.
+- mdnsd/dnssd_mdnsd.c: when gethostname() is "localhost" (always on Android), advertise <name>-<id>.local instead.
