@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Screen with a casting triangle -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp" android:height="96dp" android:viewportWidth="96" android:viewportHeight="96">
+    <path android:fillColor="#FF1E3A5F" android:pathData="M8,0h80a8,8 0 0 1 8,8v80a8,8 0 0 1 -8,8h-80a8,8 0 0 1 -8,-8v-80a8,8 0 0 1 8,-8z" />
+    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="5"
+        android:pathData="M28,62h-6a4,4 0 0 1 -4,-4v-32a4,4 0 0 1 4,-4h52a4,4 0 0 1 4,4v32a4,4 0 0 1 -4,4h-6" />
+    <path android:fillColor="#FF5AC8FA" android:pathData="M48,52l18,24h-36z" />
+</vector>

@@ -1,0 +1,9 @@
+# Build output
+build/
+build-cache/
+*.apk
+*.idsig
+
+# Signing key (back it up privately; updates must be signed with the same key)
+*.keystore
+*.jks
